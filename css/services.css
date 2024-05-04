@@ -1,0 +1,78 @@
+
+      .serv-box {
+        display: flex;
+        flex-direction: column;
+        isolation: isolate;
+        position: relative;
+        width: auto;
+        height: auto;
+        background: rgb(20, 30, 48);
+        border-radius: 7px;
+        overflow: hidden;
+        padding: 20px 10px;
+        --gradient: linear-gradient(to bottom, #e7e305, #efd512, #ffc800);
+      }
+
+      .serv-box:before {
+        position: absolute;
+        content: "";
+        inset: 0.0625rem;
+
+        z-index: 2;
+      }
+
+      .serv-box:after {
+        position: absolute;
+        content: "";
+        width: 0.25rem;
+        inset: 0.65rem auto 0.65rem 0.5rem;
+        background: var(--gradient);
+        transition: transform 300ms ease;
+        z-index: 4;
+      }
+
+      .serv-box:hover:after {
+        transform: translateX(0.5rem);
+      }
+
+      .serv-box-head {
+        color: gold;
+        padding: 0rem 0.25rem 0px 1.25rem;
+        font-weight: 600;
+        font-size: 22px;
+        transition: transform 300ms ease;
+        z-index: 5;
+        font-family: "Spectral SC", serif;
+      }
+
+      .serv-box:hover .serv-box-head {
+        transform: translateX(0.25rem);
+      }
+      .serv-box:hover .serv-box-img{
+        transform: translateX(0.25rem);
+      }
+
+      .serv-box-para {
+        color: white;
+        font-size: 18px;
+        font-family: Radley, serif;
+        padding: 0 1.25rem;
+        transition: transform 300ms ease;
+        z-index: 5;
+      }
+      .serv-box-img{
+   
+        padding: 0px 0px 8px 15px;
+        transition: transform 300ms ease;
+        z-index: 5;
+      }
+
+      .serv-box:hover .serv-box-para {
+        transform: translateX(0.25rem);
+      }
+  
+     @media (max-width:480px){
+        .services .row{
+            gap: 10px;
+          }
+     }

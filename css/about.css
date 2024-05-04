@@ -1,0 +1,86 @@
+
+
+.textbox {
+  height: 700px;
+}
+
+.progress {
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  width: 0;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: black !important;
+  font-weight: 500 !important;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #FFB800 !important;
+  transition: var(--bs-progress-bar-transition);
+}
+
+.all-bar span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.about-title {
+  position: relative;
+  color: #663399;
+  font-weight: 700;
+  font-family: "Spectral SC", serif;
+  font-size: 30px;
+}
+
+.about-para {
+  color: black;
+  font-size: 20px;
+  font-family: Radley, serif;
+}
+
+.all-bar span {
+  font-family: "Spectral SC", serif;
+}
+
+.about-title::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  bottom: -4px;
+  left: 0;
+  border: 4px solid #FFB800;
+  border-radius: 10px;
+}
+
+.about-title::after {
+  position: absolute;
+  content: "";
+  width: 135px;
+  height: 8px;
+  bottom: 0;
+  left: 25px;
+  border-radius: 2px;
+  background: #FFB800;
+}
+
+.bg-secondary {
+  background-color: #314355 !important;
+}
+
+.text-primary {
+  color: #00B87B !important;
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    margin-top: 20px;
+  }
+}

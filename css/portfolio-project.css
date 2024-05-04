@@ -1,0 +1,210 @@
+
+/*----------------------------------------*/
+/*  7. Portfolio CSS
+/*----------------------------------------*/
+
+.section-title h3 {
+    font-size: 35px;
+    color: #663399;
+    font-weight: 700;
+    font-family: "Spectral SC", serif;
+}
+
+.section-title p {
+    font-size: 20px;
+    color: dimgrey;
+    font-weight: 400;
+    font-family: "Spectral SC", serif;
+}
+
+.our_portfolio {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.our_portfolio .section-title {
+    margin-bottom: 20px;
+}
+
+.mix {
+    display: none;
+}
+
+
+
+.portfolio_filter ul {
+    list-style: none;
+    margin-bottom: 60px;
+    padding-left: 0px;
+}
+
+@media only screen and (max-width:768px) {
+    .portfolio_filter ul {
+        width: 100%;
+    }
+
+    .our_portfolio .section-title {
+        margin-bottom: 15px;
+    }
+
+    .portfolio_filter ul {
+        list-style: none;
+        margin-bottom: 30px;
+    }
+
+    .portfolio_filter ul li {
+        margin: 0 3px 10px !important;
+    }
+}
+
+.portfolio_filter ul li {
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: #252d35;
+    transition: .5s;
+    margin: 0 3px 0px;
+    border-right: 3px solid gold;
+    letter-spacing: 0px;
+    font-family: "Spectral SC", serif;
+}
+
+.portfolio_filter ul li:last-child {
+    border-right: 0px;
+}
+
+.portfolio_filter .active {
+    color: #663399;
+    font-family: "Spectral SC", serif;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    height: 250px;
+}
+
+.box:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.box:hover:before {
+    opacity: 0.8;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease 0s;
+    object-fit: contain;
+}
+
+.box:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+.box .box-content {
+    text-align: center;
+    opacity: 0;
+    filter: blur(5px);
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.box:hover .box-content {
+    opacity: 1;
+    filter: blur(0);
+    left: 10px;
+    bottom: 10px;
+}
+
+.box .title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    font-family: "Spectral SC", serif;
+}
+
+.box .post {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    transform: translateY(-15px);
+    font-family: "Spectral SC", serif;
+}
+
+.box .icon {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+.box:hover .icon {
+    top: 10px;
+    right: 10px;
+}
+
+.box .icon li {
+    display: inline-block;
+}
+
+.box .icon li a {
+    color: #000000;
+    background-color: white;
+    font-size: 18px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+
+    border-radius: 50%;
+    display: block;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+
+.box .icon li a:hover {
+    color: #000000;
+    background: gold;
+
+}
+
+.port-icon {
+    color: #000000 !important;
+    background: gold !important;
+
+}
+
+/*============== End Portfolio CSS ==============*/
