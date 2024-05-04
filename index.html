@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sonu- Personal Portfolio</title>
+    <!-- Link to the favicon -->
+    <link rel="icon" href="./img/logo/Vector.svg" />
+
+    <!--------------------- Boostrap CDN ----------------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!--------------------- Boostrap FONT CDN ----------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!---------------------Link Header css ----------------------->
+    <link rel="stylesheet" href="./css/header.css" />
+    <!--------------------- Link Style css ------------------->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/education.css" />
+    <link rel="stylesheet" href="./css/services.css" />
+    <!--------------------- Link parallelogram css ----------------------->
+    <link rel="stylesheet" href="./css/parallelogram.css" />
+
+    <!--------------------- Contact form ----------------------->
+    <link rel="stylesheet" href="./css/contact-form.css" />
+    <!--------------------- Portfolio-project css ----------------------->
+    <link rel="stylesheet" href="./css/venobox.css" />
+    <link rel="stylesheet" href="./css/portfolio-project.css" />
+  </head>
+
+  <body>
+    <!----- PRELOADER PART START ----->
+    <div class="preloader">
+      <div class="loader_34">
+        <div class="ytp-spinner">
+          <div class="ytp-spinner-container">
+            <div class="ytp-spinner-rotator">
+              <div class="ytp-spinner-left">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+              <div class="ytp-spinner-right">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- PRELOADER PART END ----->
+
+    <!--------------------- Header Section  ----------------------->
+    <header>
+      <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="#" target="_blank"
+                  ><img src="./img/logo/logo.svg" alt=""
+                /></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav ml-auto py-4 py-md-0">
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="#Education">Education</a>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="#contact-form-section"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--------------------- Header Section  ----------------------->
+
+    <!--------------------- Hero & parallelogram  START Section  ----------------------->
+    <main>
+      <section>
+        <!--------------------- parallelogram Section  ----------------------->
+        <div>
+          <div class="parallelogram" id="one"></div>
+          <div class="parallelogram" id="two"></div>
+          <div class="parallelogram" id="three"></div>
+          <div class="parallelogram" id="four"></div>
+          <div class="parallelogram" id="five"></div>
+          <div class="parallelogram" id="six"></div>
+        </div>
+
+        <!--------------------- parallelogram Section  ----------------------->
+
+        <div class="container main-scroll-down-btn">
+          <!--------------------- scrollDownBtn Section  ----------------------->
+          <div id="scrollDownBtn">
+            <img src="./img/hero-img/down-arrow.svg" alt="" />
+          </div>
+
+          <!--------------------- scrollDownBtn Section  ----------------------->
+
+          <div class="row align-items-center pt-5 pb-5">
+            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12">
+              <div class="hero-content">
+                <h1>
+                  Hello, I'm <br />
+                  <span>Sonu Kushwaha</span>
+                </h1>
+                <span id="typed-name"></span>
+                <p class="hero-content-p">
+                  This is my official website to showes all <br />Details and
+                  work exiprians Front-end development
+                </p>
+              </div>
+              <div class="hero-content2 mt-4">
+                <a href="#contact-form-section" style="text-decoration: none">
+                  <button class="cta">
+                    <span class="cta-text">Hire Me!</span>
+                    <span class="second">
+                      <svg
+                        width="50px"
+                        height="20px"
+                        viewBox="0 0 66 43"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <g
+                          id="arrow"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <path
+                            class="one"
+                            d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                            fill="#FFFFFF"
+                          ></path>
+                          <path
+                            class="two"
+                            d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                            fill="#FFFFFF"
+                          ></path>
+                          <path
+                            class="three"
+                            d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                            fill="#FFFFFF"
+                          ></path>
+                        </g>
+                      </svg>
+                    </span>
+                  </button>
+                </a>
+
+               
+              </div>
+            </div>
+            <div
+              class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 hero-both-img"
+            >
+              <div class="hero-both">
+                <img
+                  src="./img/hero-img/image.svg"
+                  class="hero-shape img-fluid"
+                />
+                <img
+                  src="./img/hero-img/nomore 2.png"
+                  class="hero-me img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--------------------- Hero End Section  ----------------------->
+
+    <main class="main-all-section">
+      <!--------------------- About Start Section  ----------------------->
+      <section class="about mt-5 mb-5" id="about">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12">
+              <div class="about-img">
+                <img src="./img/about/Image.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12">
+              <h2 class="about-title pb-3 mb-4">About Me</h2>
+              <p class="about-para">
+                "I'm an experienced web developer with a passion for innovation.
+                Proficient in HTML, CSS, JavaScript,jQuery, React.js and Php, I focus
+                on creating engaging and user-friendly websites. My commitment
+                to quality ensures excellence in every project, aiming to create
+                impactful web experiences that drive business success."
+              </p>
+              <h5 class="about-title pb-3 mt-2 mb-4">Skills</h5>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="all-bar">
+                    <span>HTML/HTML5</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        95
+                      </div>
+                    </div>
+                    <span>CSS</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        75
+                      </div>
+                    </div>
+                    <span>JAVASCRIPT</span>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="65"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        65
+                      </div>
+                    </div>
+                    <span>CORE PHP</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        60
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="all-bar">
+                    <span>JQUERY</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        80
+                      </div>
+                    </div>
+                    <span>REACT.JS</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        50
+                      </div>
+                    </div>
+                    <span>FIGMA/PHOTOSHOP/ILLUSTRATOR</span>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        75
+                      </div>
+                    </div>
+                    <span>WORDPRESS</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        80
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------- About End Section  ----------------------->
+
+      <!--------------------- services start Section  ----------------------->
+      <section class="services mt-5 mb-5 pb-4 pt-4">
+        <div class="container">
+          <h2 class="education-head pb-3 mb-5 text-center">Services</h2>
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <div class="serv-box">
+                <div class="serv-box-img">
+                  <img
+                    src="./img/services/coder.svg"
+                    class="img-fluid"
+                    alt=""
+                    style="width: 13%"
+                  />
+                </div>
+                <div class="serv-box-head">Web Development</div>
+                <div class="serv-box-para">
+                  Crafting tailored websites, we specialize in dynamic,
+                  responsive design to enhance your online presence with
+                  innovation and seamless user experiences.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="serv-box">
+                <div class="serv-box-img">
+                  <img
+                    src="./img/services/Vector.svg"
+                    class="img-fluid"
+                    alt=""
+                    style="width: 13%"
+                  />
+                </div>
+                <div class="serv-box-head">Backend Developer</div>
+                <div class="serv-box-para">
+                  We bolster digital infrastructure with robust backend
+                  solutions, optimizing performance and security, ensuring
+                  seamless operations for your online platform.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="serv-box">
+                <div class="serv-box-img">
+                  <img
+                    src="./img/services/creativity.svg"
+                    class="img-fluid"
+                    alt=""
+                    style="width: 13%"
+                  />
+                </div>
+                <div class="serv-box-head">Creativity Mindset</div>
+                <div class="serv-box-para">
+                  Nurturing a mindset of creativity, we foster innovative
+                  thinking and inspire imaginative approaches to problem-solving
+                  and expression.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------- services End Section  ----------------------->
+
+      <!--------------------- Education Start Section  ----------------------->
+      <section class="education mt-5 mb-5" id="Education">
+        <div class="container">
+          <h2 class="education-head pb-3 mb-5 text-center">Education</h2>
+
+          <div class="education-item">
+            <div class="education-img"></div>
+
+            <div class="education-content js--fadeInLeft education-left">
+              <div class="education-content-date">July 2020 – March 2023</div>
+              <h2>University of Mumbai</h2>
+              <h4>KES. B K Shroff College of Arts And M H Shroff College of</h4>
+
+              <p><span>Undergraduate</span>&nbsp;&nbsp;8.24 CGPA/ A</p>
+            </div>
+          </div>
+
+          <div class="education-item">
+            <div class="education-img"></div>
+
+            <div class="education-content js--fadeInRight education-right">
+              <div class="education-content-date">June 2019 – March 2020</div>
+              <h2 class="education-h2">Maharashtra State Board</h2>
+              <h4>Nirmal College Of Commerce And Science</h4>
+              <p>
+                <span>12<sup>th </sup></span>&nbsp;&nbsp;52.77%
+              </p>
+            </div>
+          </div>
+
+          <div class="education-item">
+            <div class="education-img"></div>
+
+            <div class="education-content js--fadeInLeft education-left">
+              <div class="education-content-date">June 2017 - April 2018</div>
+              <h2>Maharashtra State Board</h2>
+              <h4>Bharat Bharti High School</h4>
+              <p>
+                <span>10<sup>th </sup></span>&nbsp;&nbsp;60.40%
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------- Education End Section  ----------------------->
+
+      <!--------------------- Portfolio Start Section  ----------------------->
+      <section id="portfolio" class="our_portfolio section-padding">
+        <div class="container">
+          <h2 class="education-head pb-3 mb-5 text-center">Projects</h2>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="section-title text-center">
+              <p>
+                "I want to showcase all my projects to demonstrate my skills and
+                expertise."
+              </p>
+            </div>
+            <div class="col-lg-12 text-center">
+              <div class="portfolio_filter">
+                <ul>
+                  <li class="active filter" data-filter="all">All</li>
+                  <li class="filter" data-filter=".website">Website</li>
+                  <li class="filter" data-filter=".uiux">Ui/Ux</li>
+                  <li class="filter" data-filter=".app">
+                   App Design
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row portfolio_item">
+           
+          
+            <!--=============== Website ==================-->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix website no-padding">
+              <div class="box">
+                <img src="./img/project/static/campaign.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Campaign</h3>
+                 
+                </div>
+                <ul class="icon">
+                  <li>
+                    <a href="https://testt.in/campaign/sample1/" target="_blank"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="./img/project/static/campaign.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix website no-padding">
+              <div class="box">
+                <img src="./img/project/static/Crypto Scam Recovery.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Crypto scam recovery</h3>
+                 
+                </div>
+                <ul class="icon">
+                  <li>
+                    <a href="https://financialscamsrecovery.com/cryptocurrency-scam-recovery-service/" target="_blank"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="./img/project/static/Crypto Scam Recovery.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix website no-padding">
+              <div class="box">
+                <img src="./img/project/static/fianancial-money-recovery.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Financial money recovery</h3>
+                 
+                </div>
+                <ul class="icon">
+                  <li>
+                    <a href="https://financialmoneyrecovery.com/camp/cryptocurrency-scam-recovery" target="_blank"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="./img/project/static/fianancial-money-recovery.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix website no-padding">
+              <div class="box">
+                <img src="./img/project/static/fianancial-option-recovery.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">financial option recovery</h3>
+                 
+                </div>
+                <ul class="icon">
+                  <li>
+                    <a href="https://financialmoneyrecovery.com" target="_blank"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="./img/project/static/fianancial-option-recovery.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix website no-padding">
+              <div class="box">
+                <img src="./img/project/static/swipe-single.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">financial option recovery</h3>
+                 
+                </div>
+                <ul class="icon">
+                  <li>
+                    <a href="https://testt.in/swipesingles/" target="_blank"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="./img/project/static/swipe-single.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!--============= uiux ===================-->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix uiux no-padding">
+              <div class="box">
+                <img src="./img/project/figma design/capx recovery.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Capx Recovery</h3>
+                 
+                </div>
+                <ul class="icon">
+                  
+                  <li>
+                    <a
+                      href="./img/project/figma design/capx recovery.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix uiux no-padding">
+              <div class="box">
+                <img src="./img/project/figma design/forex withdrawl problems.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Forex Withdrawl</h3>
+                 
+                </div>
+                <ul class="icon">
+                 
+                  <li>
+                    <a
+                      href="../img/project/figma design/forex withdrawl problems.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix uiux no-padding">
+              <div class="box">
+                <img src="./img/project/figma design/money back scam.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Money Back Scam</h3>
+                 
+                </div>
+                <ul class="icon">
+                  
+                  <li>
+                    <a
+                      href="./img/project/figma design/money back scam.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix uiux no-padding">
+              <div class="box">
+                <img src="./img/project/figma design/Prize.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Prize</h3>
+                 
+                </div>
+                <ul class="icon">
+                 
+                  <li>
+                    <a
+                      href="./img/project/figma design/Prize.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix uiux no-padding">
+              <div class="box">
+                <img src="./img/project/figma design/money back.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Money Back</h3>
+                 
+                </div>
+                <ul class="icon">
+                 
+                  <li>
+                    <a
+                      href="./img/project/figma design/money back.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--=============  App Design =============-->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix app no-padding">
+              <div class="box">
+                <img src="./img/project/app/dating.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Dating App</h3>
+                 
+                </div>
+                <ul class="icon">
+                  <li>
+                    <a href="https://www.figma.com/file/ra0hUhIs1BLCf49v4ZmhtK/Dating-App?type=design&node-id=0-1&mode=design&t=KnleEZ8XdubIfE1Y-0" target="_blank"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="./img/project/app/dating.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12 mix app no-padding">
+              <div class="box">
+                <img src="./img/project/app/selftest.jpg" alt="" />
+                <div class="box-content">
+                  <h3 class="title">Selftest App</h3>
+                 
+                </div>
+                <ul class="icon">
+                  <li>
+                    <a href="https://www.figma.com/file/VS9LSd7BbfTB4Nx2ZzapQG/SelfTest-app?type=design&node-id=0-1&mode=design&t=04gNgBsAndDzbcuW-0" target="_blank"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="./img/project/app/selftest.jpg"
+                      class="port-icon lightbox"
+                      data-gall="gall-work"
+                      ><i class="bi bi-arrows-angle-expand"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------- Portfolio End Section  ----------------------->
+
+      <!--------------------- contact Start Section  ----------------------->
+      <div class="contact-form pt-5 pb-5" id="contact-form-section">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+              <div class="login-box">
+                <h2>Let's Get In Touch</h2>
+
+                <form method="POST" id="form">
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="d11497c1-9d90-47d5-ba6d-0f27590c84df"
+                  />
+
+                  <div class="user-box">
+                    <input type="text" name="name" required />
+                    <label>Name</label>
+                  </div>
+                  <div class="user-box">
+                    <input type="email" name="email" required />
+                    <label>Email</label>
+                  </div>
+                  <div class="user-box">
+                    <textarea name="message" required></textarea>
+                    <label>Message</label>
+                  </div>
+
+                  <button type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit
+                  </button>
+                  <div id="result"></div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+             
+              <div class="right-contact-details mt-5">
+                <a href="./img/project/sonu resume.pdf" download="sonu-resume" class="resume-btn">
+                  <i class="bi bi-file-earmark-arrow-down"
+                    ><div class="resume-span">My Resume</div></i
+                  >
+                </a>
+                <div class="contact-detail mt-5">
+                
+               
+                  <div class="row align-items-center">
+                    <div class="col-md-2 col-2">
+                      <i class="bi bi-telephone-inbound-fill"></i>
+                    </div>
+                    <div class="col-md-10 col-10">
+                      <p>+91 8934977971</p>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-5">
+                    <div class="col-md-2 col-2">
+                      <i class="bi bi-envelope-at-fill"></i>
+                    </div>
+                    <div class="col-md-10 col-10">
+                      <p>kushwahasonu933@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-5">
+                    <div class="col-md-2 col-2">
+                      <i class="bi bi-geo-fill"></i>
+                    </div>
+                    <div class="col-md-10 col-10">
+                      <p>
+                        Orlem church Malad west <br />
+                        Mumbai 400064
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------- contact End Section  ----------------------->
+    </main>
+
+    <!--------------------- footer Start Section  ----------------------->
+    <section class="footer">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="main-footer text-white p-4">
+            <strong>© i Coder 2024. All rights reserved.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------- footer End Section  ----------------------->
+
+    <!--------------------- main-scroll-up-btn Section  ----------------------->
+    <button class="main-scroll-up-btn" id="scrollToTopBtn">
+      <svg height="1.2em" class="arrow-top" viewBox="0 0 512 512">
+        <path
+          d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"
+        ></path>
+      </svg>
+    </button>
+    <!--------------------- main-scroll-up-btn Section  ----------------------->
+
+    <!--======================= SCRIPT LINK START ============================-->
+
+    <!--------------------- JQUERY CDN ----------------------->
+
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.7.1.js"></script>
+
+    <!--------------------- HEADER LINk ----------------------->
+    <script src="./js/header.js"></script>
+
+    <!--------------------- Type CDN ----------------------->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--------------------- SCRIPT Link ----------------------->
+    <script src="./js/main.js"></script>
+    <script src="./js/about.js"></script>
+    <script src="./js/education.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--------------------- Contact form ----------------------->
+    <script src="./js/contact-form.js"></script>
+
+    <!--------------------- portfolio-project ----------------------->
+    <script src="./js/jquery.mixitup.js"></script>
+    <script src="./js/venobox.min.js"></script>
+    <script></script>
+    <!--======================= SCRIPT LINK END ============================-->
+  </body>
+</html>
